@@ -5,7 +5,13 @@
   "repository": "https://github.com/lucasmoura-dev/GoStack08-Challenge01.git",
   "author": "Lucas Moura <lucasmoura.developer@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
